@@ -19,3 +19,9 @@ wget 'https://static.mrcyjanek.net/abstruse/apt-repository/mrcyjanek-repo/mrcyja
     apt update && \
     apt install bashista -y
 ```
+
+## Screenshots
+
+`bashista` running on OnePlus 6T with droidian on it:
+
+![yup](https://git.mrcyjanek.net/mrcyjanek/bashista/raw/branch/master/.meta/droidian_sample.png)
