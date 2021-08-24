@@ -1,5 +1,5 @@
 image: mrcyjanek/goprod:core-linux
 script:
-  - goprod -binname="bashista" -combo="linux/amd64;linux/arm64;linux/arm;linux/386"
+  - goprod -binname="bashista" -combo="linux/amd64;linux/arm64"
   - cp build/deb/*.deb /apt/ || true
   - cp build/bin/* /archive || true
